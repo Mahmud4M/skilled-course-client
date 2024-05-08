@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "spot_name": "Eiffel Tower",
+        "image": "eiffel_tower.jpg",
+        "country_name": "France",
+        "location": "Paris",
+        "short_description": "Iconic landmark and symbol of Paris, offering stunning views of the city.",
+        "average_cost": 5000,
+        "seasonality": "Winter"
+    },
+    {
+        "id": 2,
+        "spot_name": "Colosseum",
+        "image": "colosseum.jpg",
+        "country_name": "Italy",
+        "location": "Rome",
+        "short_description": "Ancient amphitheater known for its historical significance and architectural grandeur.",
+        "average_cost": 5000,
+        "seasonality": "Summer"
+    },
+    {
+        "id": 3,
+        "spot_name": "Sagrada Familia",
+        "image": "sagrada_familia.jpg",
+        "country_name": "Spain",
+        "location": "Barcelona",
+        "short_description": "Gaudi's masterpiece cathedral, famous for its unique design and ongoing construction.",
+        "average_cost": 5000,
+        "seasonality": "Spring"
+    },
+    {
+        "id": 4,
+        "spot_name": "Big Ben",
+        "image": "big_ben.jpg",
+        "country_name": "England",
+        "location": "London",
+        "short_description": "Iconic clock tower and symbol of London, situated at the Palace of Westminster.",
+        "average_cost": 5000,
+        "seasonality": "Monsoon"
+    },
+    {
+        "id": 5,
+        "spot_name": "Keukenhof Gardens",
+        "image": "keukenhof_gardens.jpg",
+        "country_name": "Netherlands",
+        "location": "Lisse",
+        "short_description": "Famous for its tulip displays, this is one of the world's largest flower gardens.",
+        "average_cost": 5000,
+        "seasonality": "Dry Season"
+    },
+    {
+        "id": 6,
+        "spot_name": "Jungfraujoch",
+        "image": "jungfraujoch.jpg",
+        "country_name": "Switzerland",
+        "location": "Bernese Alps",
+        "short_description": "Top of Europe experience with breathtaking views of the Alps and year-round snow.",
+        "average_cost": 5000,
+        "seasonality": "Autumn"
+    }
+]
