@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 
 
 const JobCard = ({job}) => {
-    const { title, email, deadline, category, minimumPrice, maximumPrice, description } = job;
+    const { _id, title, email, deadline, category, minimumPrice, maximumPrice, description } = job;
 
     return (
         <div>
-            <Link to='/placeBid'>
-            <div className="w-full max-w-sm px-4 py-3 bg-white rounded-md shadow-md dark:bg-gray-800 font-roboto">
+            <Link to={`/placeBid/${_id}`}>
+            <div className="w-full max-w-sm px-4 py-3 bg-white rounded-md dark:bg-gray-800 font-roboto hover:shadow-2xl hover:duration-1000">
                 <div className="flex items-center justify-between">
                     <span className="text-sm font-light text-gray-800 dark:text-gray-400">
                         {new Date(deadline).toLocaleString()}
@@ -23,8 +23,8 @@ const JobCard = ({job}) => {
                     <h1 className="mt-2 text-lg font-semibold text-gray-800 dark:text-white">
                         {title}
                     </h1>
-                    <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
-                        {description.slice(0, 90)}
+                    <p title={description} className="mt-2 text-sm text-gray-600 dark:text-gray-300">
+                        {description.substring(0, 70)}...
                     </p>
                 </div>
 

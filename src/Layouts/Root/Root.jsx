@@ -14,12 +14,10 @@ const Root = () => {
                 {/* Outlet */}
                 <Outlet></Outlet>
 
-
-                {/* Footer */}
-                <div className="mt-10">
-                    <Footer></Footer>
-                </div>
-
+            </div>
+            {/* Footer */}
+            <div className="mt-10">
+                <Footer></Footer>
             </div>
         </>
     );

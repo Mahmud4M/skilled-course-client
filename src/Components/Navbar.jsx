@@ -51,8 +51,8 @@ const Navbar = () => {
                                     </li> */}
                                     <li><Link to='/addjob'>Add Job</Link></li>
                                     <li><Link to='/postedJob'>My Posted Jobs</Link></li>
-                                    <li><Link to='/myBid'>My Bids</Link></li>
-                                    <li><Link to='/bidReq'>Bids Requests</Link></li>
+                                    <li><Link to='/myBids'>My Bids</Link></li>
+                                    <li><Link to='/updateBid'>Bids Requests</Link></li>
                                     <li><button onClick={handleSignOut} className="w-[4rem] mx-auto text-red-500 text-center">SignOut</button></li>
                                 </ul>
                             </div>
